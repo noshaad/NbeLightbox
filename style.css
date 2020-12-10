@@ -1,3 +1,10 @@
-body{
-	
+.nbe-lb-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: none;
 }
