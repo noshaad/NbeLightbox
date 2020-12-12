@@ -1,5 +1,5 @@
 .nbe-lb-container {
-    
+    z-index: 999;
     position: fixed;
     width: 100%;
     height: 100%;
