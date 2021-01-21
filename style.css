@@ -65,10 +65,18 @@
     outline: 0 !important;
 }
 
-#nbe-lb-close {
+.nbe-lb-close {
     position: absolute;
     width: 30px;
     right: 20px;
     top: 20px;
     z-index: 9;
+}
+
+.nbe-lb-container .owl-item {
+    opacity: 0;
+    transition: .1s all;
+}
+.nbe-lb-container .owl-item.active {
+  opacity: 1;
 }
